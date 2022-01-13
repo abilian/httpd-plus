@@ -3,12 +3,12 @@
 ## Httpd-plus
 
 Httpd-plus is a web server (HTTP/1.0 and HTTP/1.1), dedicated to serve static files,
-developped with the CythonPlus development framework. The web server uses the actor
-model to parallelize responses to requests.
+developped using the [Cython+](https://cython.plus/) programming language. 
+The web server uses the actor model to parallelize responses to requests.
 
-The static file server is inspired by the features of Whitenoise middleware, a common
+The static file server is inspired by the features of the middleware, a common
 component of a python configuration using Flask or Django. Whitenoise responds to
-static file requests, It speeds up these transactions by using a cache of HTTP headers
+static file requests, it speeds up these transactions by using a cache of HTTP headers
 and file statistics (size, last modification date).
 
 CythonPlus: https://www.cython.plus and https://pypi.org/project/cython-plus
@@ -21,7 +21,7 @@ Whitenoise: https://github.com/evansd/whitenoise
 - Prerequisites:
     - Linux with C++ development environment (tested on Ubuntu 2020),
     - Python 3.8+,
-    - CythonPlus installed (see https://pypi.org/project/cython-plus/)
+    - Cython+ installed (see https://pypi.org/project/cython-plus/)
 
 - {fmt} library:
 
